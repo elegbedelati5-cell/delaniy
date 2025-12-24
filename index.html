@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delaniy</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./tailwind.min.css" />
+    <link rel="stylesheet" href="./ASSETS/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+   
+
+    <style type="text/tailwindcss">
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities;
+
+      * {
+        @apply p-0 m-0 box-border;
+      }
+
+      .containerr {
+        @apply max-w-[1150px] mx-auto;
+      }
+      .s-btn {
+        @apply py-[8px] px-8 lg:mr-7 bg-linear-to-r from-[#06ed9c] to-[#051a3f] text-white border-[2px] border-white cursor-pointer rounded-md duration-300 ease-in text-lg;
+      }
+      .sec-btn {
+        @apply py-[8px] px-6 lg:mr-5 mr-3 bg-linear-to-r from-[#06ed9c] to-[#051a3f] text-white border-[2px] border-white cursor-pointer rounded-md duration-300 ease-in text-lg;
+      }
+      .pri-btn {
+        @apply py-[6px] px-6 bg-transparent border-[#051a3f] border-[1px] hover:bg-[#07bc7d] cursor-pointer rounded-md duration-300 ease-in text-lg;
+      }
+      .line-header {
+        @apply border-t-[0.5px] border-[black] w-[90%] px-5 lg:px-0 lg:w-[1200px];
+      }
+      .line-head {
+        @apply border-t-[0.5px] border-dashed border-[black] w-[90%] px-5 lg:px-0 lg:w-[1150px];
+      }
+      .boder-2{
+          border: 1px solid white;
+          border-radius: 13px;
+          background-color: #f9f9f9;
+          @apply h-[520px] lg:h-[600px] w-[355px] lg:w-[1000px]
+        }
+       .texts{
+        @apply text-7xl bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-900
+       } 
+       .boder{
+          @apply bg-transparent rounded-full border-[1px] border-[#051a3f] text-sm  lg:p-3 p-2;
+        }
+    </style>
+  </head>
+  <body class="w-screen bg-white overflow-x-hidden">
+    <header class="py-8 lg:px-6 px-5 bg-white w-full">
+      <!-- dexktop header -->
+      <div class="lg:flex justify-between items-center hidden">
+        <img src="./ASSETS/IMGS/delaniy-logo.png" alt="" class="h-16" />
+        <div class="flex items-center">
+          <a href="/talktome.html" class="s-btn">
+            <span class="mr-2">Talk To Me</span>
+            <i
+              class="fa fa-chevron-down"
+              aria-hidden="true"
+              style="color: white"
+            ></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- mobile header -->
+      <div class="flex justify-between items-center lg:hidden">
+        <img src="./ASSETS/IMGS/D-1.png" alt="" class="h-20" />
+        <div class="flex items-center">
+          <a href="/talktome.html" class="s-btn">
+            <span class="mr-2">Talk To Me</span>
+            <i
+              class="fa fa-chevron-down"
+              aria-hidden="true"
+              style="color: white"
+            ></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section
+        class="flex lg:flex-row flex-col items-center justify-between containerr lg:mb-10 lg:px-0 px-5 lg:py-10 py-20 lg:gap-30"
+      >
+        <img src="./ASSETS/IMGS/dee.png" alt="" class="w-96" />
+        <div class="flex flex-col gap-5">
+          <h2
+            class="lg:text-6xl text-4xl py-3 tracking-widest lg:font-semibold font-bold leading-10 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-900"
+          >
+            Transforming Ideas into Beautiful Pages, Seamlessly.
+          </h2>
+          <p class="text-lg">
+            Hey there, explorer! I’m <b>Issa Elegbede</b> (most people call me
+            <b>Delani</b>), a no-code/low-code <b>web design</b> whiz and
+            <b>landing page</b> maestro.
+          </p>
+          <p class="text-lg">
+            Welcome to my world of digital creativity, where every pixel tells a
+            story. I specialize in crafting stunning <b>websites</b> and
+            <b>landing pages</b> without the need for complex coding. Scroll
+            down to explore my portfolio and discover how I can bring your
+            vision to life.
+          </p>
+          <div class="flex items-center">
+            <a href="/talktome.html" class="sec-btn">
+              <span class="mr-2">Meet Me</span>
+              <i
+                class="fa fa-chevron-down"
+                aria-hidden="true"
+                style="color: white"
+              ></i>
+            </a>
+            <a href="/talktome.html" class="pri-btn">
+              <span class="mr-2">Talk to Me</span>
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="flex flex-col items-center justify-between containerr pb-24">
+         <div class="line-header flex items-center"></div>
+         <div class="flex lg:flex-row flex-col items-center lg:w-full px-5 justify-between pt-20 pb-14 lg:gap-28 gap-14">
+        <div class="flex flex-col gap-5 text-[#2f466c] ">
+          <h2 class="lg:text-4xl text-3xl pb-6 tracking-widest font-bold leading-10 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-900">Meet Me: A No-Code/Low-Code Website Designer.</h2>
+          <p class="text-[18px]">
+            Hey there! I’m Issa, a seasoned no-code website designer with 4+
+            years of experience crafting captivating online platforms. Skilled
+            in WordPress, Unbounce, Wix, High Level, Squarespace, and more, I
+            specialize in translating visions into visually stunning websites
+            and pages without the need for coding.
+          </p>
+          <p class="text-[18px]">
+            My approach seamlessly blends creativity with functionality,
+            ensuring each site not only looks exceptional but also serves its
+            purpose effectively. Collaborative and client-centric, I work
+            closely with you to understand your goals and bring them to life.
+          </p>
+          <p class="text-[18px]">
+            Beyond design, I’m driven by a passion to help people – in ways I
+            can and through volunteering, preaching the anime gospel, getting
+            heartbroken by Chelsea Football Club, and laughing hysterically at
+            every opportunity I get! Let’s connect and elevate your digital
+            presence to greater heights.
+          </p>
+          <div class="flex items-center">
+            <a href="/talktome.html" class="sec-btn">
+              <span class="mr-2">My Work</span>
+              <i
+                class="fa fa-chevron-down"
+                aria-hidden="true"
+                style="color: white"
+              ></i>
+            </a>
+            <a href="/talktome.html" class="pri-btn">
+              <span class="mr-2">Talk to Me</span>
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col text-center boder-2 p-10 lg:gap-20 gap-10">
+           <div class="">
+             <p class="uppercase py-3">Years of experience</p>
+            <h1 class="texts">
+              +4
+            </h1>
+           </div>
+           <div>
+            <p class="uppercase py-3">Satisfied client</p>
+            <h1 class="texts">+30</h1>
+           </div> 
+           <div>
+            <p class="uppercase py-3">completed projects</p>
+            <h1 class="texts">+40</h1>
+           </div>
+          </div>
+        </div>
+        <div class="flex w-[90%] slideinanim">
+          <img src="./ASSETS/IMGS/3.png" alt="" class="w-52">
+          <img src="./ASSETS/IMGS/4.png" alt="" class="w-52">
+          <img src="./ASSETS/IMGS/5.png" alt="" class="w-52">
+          <img src="./ASSETS/IMGS/6 (1).png" alt="" class="w-52">
+          <img src="./ASSETS/IMGS/7.png" alt="" class="w-52">
+            <img src="./ASSETS/IMGS/8.png" alt="" class="w-52">
+            <img src="./ASSETS/IMGS/9.png" alt="" class="w-52">
+            <img src="./ASSETS/IMGS/10-1.png" alt="" class="w-52">
+            <img src="./ASSETS/IMGS/11-1.png" alt="" class="w-52">
+        </div>
+      </section>
+
+      <div class="flex flex-col items-center justify-between containerr">
+         <div class="line-header flex items-center"></div>
+         <div class="flex flex-col items-center py-28 gap-14">
+          <div class="flex lg:flex-row flex-col px-5 w-full lg:gap-80 gap-5">
+             <h2 class="text-5xl lg:py-3 font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-900">Work Experience.</h2>
+                <div class="flex gap-2 lg:py-3">
+                   <a href=""><i class="fa fa-linkedin boder" aria-hidden="true "></i></a> 
+                   <a href=""><img src="./ASSETS/ICONS/fi.svg" class="boder lg:h-11 h-9"></i></a> 
+                   <a href=""><img src="./ASSETS/ICONS/upwork.svg" class="boder lg:h-11 h-9" alt=""></i></a> 
+                   <a href=""><img src="./ASSETS/ICONS/Be.png" class="boder lg:h-12 h-9"></a>
+                   <a href=""><img src="./ASSETS/ICONS/Ball.png" class="boder lg:h-11 h-9" alt=""></a>
+                   <a href=""><img src="./ASSETS/ICONS/x-icon-svg-download-png-8999189.png" class="boder lg:h-11 h-9"></a>
+                   <a href=""><i class="fa fa-instagram boder" aria-hidden="true "></i></a> 
+                 </div>
+            </div>
+            <div class="flex flex-col gap-5 items-center" id="navbar">
+            <div class="grid lg:grid-cols-4 grid-cols-1 w-full items-center justify-evenly lg:gap-28 gap-2 px-5 lg:px-0">
+              <h2 class="lg:col-span-2 col-span-1 lg:text-3xl text-3xl tracking-wide font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-900">WordPress Designer (Volunteer)</h2>
+               <p class="col-span-1">Wevise, United States</p>
+               <p class="col-span-1">February, 2024 – Present</p>
+            </div>
+             <div class="line-head flex items-center justify-center"></div>
+
+             <div class="grid lg:grid-cols-4 grid-cols-1 w-full items-center justify-evenly lg:gap-28 gap-2 px-5 lg:px-0">
+              <h2 class="lg:col-span-2 col-span-1 lg:text-3xl text-3xl tracking-wide font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-900">Website Designer (Freelance)</h2>
+               <p class="col-span-1">HM Focus, Australia</p>
+               <p class="col-span-1">May, 2022 – Present</p>
+            </div>
+             <div class="line-head flex items-center justify-center"></div>
+
+             <div class="grid lg:grid-cols-4 grid-cols-1 w-full items-center justify-evenly lg:gap-28 gap-2 px-5 lg:px-0">
+              <h2 class="lg:col-span-2 col-span-1 lg:text-3xl text-3xl tracking-wide font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-900">Website Designer (Contract)</h2>
+               <p class="col-span-1">Emages Multimedia, Lagos</p>
+               <p class="col-span-1">December, 2023 – Present</p>
+            </div>
+             <div class="line-head flex items-center justify-center"></div>
+
+             <div class="grid lg:grid-cols-4 grid-cols-1 w-full items-center justify-evenly lg:gap-28 gap-2 px-5 lg:px-0">
+              <h2 class="lg:col-span-2 col-span-1 lg:text-3xl text-3xl tracking-wide font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-900">Freelance Website Designer</h2>
+               <p class="col-span-1">Upwork, Fiverr, etc.</p>
+               <p class="col-span-1">Jan, 2020 – Present</p>
+            </div>
+             <div class="line-head flex items-center justify-center"></div>
+             
+            </div>
+          </div>
+        </div>
+
+
+      <div class="flex flex-col items-center containerr">
+         <div class="line-header flex items-center"></div>
+         <div class="flex flex-col py-20" >
+     <h2 class="text-6xl lg:px-0 px-5 py-5 font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-900">Recent Projects.</h2>
+         <div class="flex flex-col gap-5 items-center pt-10" id="nav-bar">
+            </div>
+          </div> 
+
+  </main>
+    <footer>
+      <section class="flex flex-col items-center containerr">
+         <div class="line-header flex items-center"></div>
+        <div class="grid lg:grid-cols-2 grid-cols-1 items-center py-16">
+          <div class=" col-span-1 lg:px-0 px-5 flex flex-col gap-5">
+            <h2 class="lg:text-8xl text-6xl lg:px-0 py-5 font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-900">Let's Work Together.</h2>
+            <p class="text-xl">Ready to take the first step toward an exceptional online presence? Let’s discuss your project and explore how my web design services can bring your vision to life. Fill out the form below, and I’ll get back to you promptly with a personalized quote tailored to your needs.</p>
+             <div class="lg:flex gap-2 lg:py-3 hidden">
+                   <a href=""><i class="fa fa-linkedin boder" aria-hidden="true "></i></a> 
+                   <a href=""><img src="./ASSETS/ICONS/fi.svg" class="boder lg:h-11 h-9"></i></a> 
+                   <a href=""><img src="./ASSETS/ICONS/upwork.svg" class="boder lg:h-11 h-9" alt=""></i></a> 
+                   <a href=""><img src="./ASSETS/ICONS/Be.png" class="boder lg:h-12 h-9"></a>
+                   <a href=""><img src="./ASSETS/ICONS/Ball.png" class="boder lg:h-11 h-9" alt=""></a>
+                   <a href=""><img src="./ASSETS/ICONS/x-icon-svg-download-png-8999189.png" class="boder lg:h-11 h-9"></a>
+                   <a href=""><i class="fa fa-instagram boder" aria-hidden="true "></i></a> 
+                   <a href=""><i class="fa fa-envelope-o boder" aria-hidden="true"></i></a>
+                   <a href=""><i class="fa fa-whatsapp boder" aria-hidden="true"></i></a>
+                 </div>
+          </div>
+          <div class="col-span-1 lg:px-0 px-5">
+            <div class="flex lg:flex-row flex-col gap-10 py-10">
+          <input type="text" placeholder="Name" class="border-b-2 border-[#313132] lg:w-[50%] w-[100%] p-5 text-black">
+          <input type="text" placeholder="Email" class="border-b-2   lg:w-[50%] w-[100%] p-5 text-black">
+        </div> 
+         <div class="flex lg:flex-row flex-col gap-10">
+          <input type="text" placeholder="Country" class="border-b-2 border-[#313132] lg:w-[50%] w-[100%] p-5 text-black">
+        <select id="cars" name="cars" class="border-b-2 lg:w-[50%] w-[100%] p-5 text-[#313132]">
+        <option value="" class="text-[#313132]">Website Design / Redesign</option>
+        <option value="saab">Email Marketing</option>
+        <option value="fiat">Sales Funnel / Landing Page Design</option>
+        <option value="audi">Website Management</option>
+         <option value="audi">Others</option>
+        </select>
+        </div>
+         <div class="flex py-5">
+        <textarea placeholder="Message" rows="4" cols="30" class="border-b-2 w-[100%]">
+        </textarea>
+        </div>  
+         <div class="w-[100%]  py-6 gap-3">
+           <a href="/login.html" class="py-5 w-[100%] flex items-center justify-center text-white border-[2px] bg-[#0b2653] cursor-pointer rounded-md text-xl font-bold;">
+           Send
+            </a>
+            </div>
+             <div class="lg:hidden gap-2 lg:py-3 flex">
+                   <a href=""><i class="fa fa-linkedin boder" aria-hidden="true "></i></a> 
+                   <a href=""><img src="./ASSETS/ICONS/fi.svg" class="boder lg:h-11 h-9"></i></a> 
+                   <a href=""><img src="./ASSETS/ICONS/upwork.svg" class="boder lg:h-11 h-9" alt=""></i></a> 
+                   <a href=""><img src="./ASSETS/ICONS/Be.png" class="boder lg:h-12 h-9"></a>
+                   <a href=""><img src="./ASSETS/ICONS/Ball.png" class="boder lg:h-11 h-9" alt=""></a>
+                   <a href=""><img src="./ASSETS/ICONS/x-icon-svg-download-png-8999189.png" class="boder lg:h-11 h-9"></a>
+                   <a href=""><i class="fa fa-instagram boder" aria-hidden="true "></i></a> 
+                   <a href=""><i class="fa fa-envelope-o boder" aria-hidden="true"></i></a>
+                   <a href=""><i class="fa fa-whatsapp boder" aria-hidden="true"></i></a>
+                 </div>
+        </div>
+        </div>
+      </section>
+
+      <section class="lg:px-6 px-5 bg-[#f9f9f9] py-10">
+        <div class="flex lg:flex-row flex-col items-center lg:gap-96">
+          <img src="./ASSETS/IMGS/delaniy-logo.png" alt="" class="h-20 lg:mr-20">
+           <p class="">© 2025 Delaniy. All rights reserved.</p>
+
+        </div>
+      </section>
+    </footer>
+    
+    <script src="./ASSETS/SCRIPTS/data.js"></script>
+    <script src="./ASSETS/SCRIPTS/projects.js"></script>
+     <script src="./ASSETS/SCRIPTS/experience.js"></script>
+  </body>
+</html>

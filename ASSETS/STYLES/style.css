@@ -1,0 +1,22 @@
+.fonts{
+    font-family: Helvetica;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%); /* Start off-screen to the left */
+  }
+  50%{
+      transform: translateX(0);
+  }
+  100% {
+   transform: translateX(-100%) ; /* End at its original position */
+  }
+}
+.slideinanim {
+  animation-name: slideIn;
+  animation-duration: 25s; /* The animation will take 2 seconds */
+  animation-timing-function: linear; /* Constant speed throughout */
+  animation-iteration-count: infinite; /* Play once */
+  animation-fill-mode: forwards;
+}
