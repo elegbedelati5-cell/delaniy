@@ -13,7 +13,7 @@ A responsive landing page clone of Delaniy, built with HTML5, CSS3 and minimal J
 - Hover effects and animations
 
 ## Screenshots
-[About Section](IMGS/about-section.png)
-![Experience Section](IMGS/experience-section.png)
+[About Section](ASSETS/IMGS/about-section.png)
+![Experience Section](ASSETS/IMGS/experience-section.png)
 
 To run locally: Just open `index.html` in your browser!
